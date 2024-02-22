@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 #header {
@@ -29,8 +31,11 @@ body {
 }
 
 #external-link {
+    display: block;
+    text-align: center;
     color: #007bff;
     text-decoration: none;
+    margin: 20px 0;
 }
 
 #external-link:hover {
