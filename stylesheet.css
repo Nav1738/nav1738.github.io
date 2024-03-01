@@ -54,6 +54,17 @@ img {
     animation: fadeIn 2s ease-in;
 }
 
+.hobby-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobby-images img {
+    width: 20%;
+    margin: 1%;
+}
+
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
